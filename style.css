@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cantener{
+    width: 1280px;
+    height: calc(870px + 80px);
+    margin: 0 auto;
+    background-color: #03110A;
+}
+
+.cantener_header_navbar{
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 25px 48px 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #03110A;
+}
+
+.katalog{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.katalog_li2 ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.katalog_li3 {
+    display: flex;
+    align-items: center;
+    padding-left: 231px;
+}
+
+.katalog_li1 {
+    padding-right: 231px;
+}
+
+.katalog_li1 a{
+    text-decoration: none;
+}
+
+.katalog_li2 ul li a{
+    text-decoration: none;
+}
+
+.katalog_li2 ul li {
+    list-style: none;
+}
+
+.katalog_li1 {
+    list-style: none;
+}
+
+.katalog_li2 ul{
+    list-style: none;
+}
+
+.marketing{
+    width: 1280px;
+    height: 870px;
+    background-image: url("./IMG/fon.png");
+    padding-top: 226px;
+}
+
+.marketing div{
+    width: 672px;
+    height: 416px;
+    margin: 0 auto;
+}
+
+.marketing div h1{
+    color: #E6F8EC;
+    font-size: 112px;
+    font-family: 'Space Grotesk',sans-serif;
+    text-align: center;
+}
+
+.marketing div h1 span{
+    color: #9DFF90;
+    font-size: 112px;
+    font-family: 'Space Grotesk',sans-serif;
+}
+
+.marketing div p{
+    color: #9EAFA4;
+    font-size: 20px;
+    font-family: 'Manrope',sans-serif;
+    text-align: center;
+    padding-bottom: 31px;
+}
+
+.marketing div button{
+    width: 389px;
+    height: 70px;
+    border-radius: 99px;
+    background: linear-gradient(to right bottom,#9DFF90 0%,#00EC31 100%);
+    color: #00640E;
+    font-size: 18px;
+    font-family: 'Manrope',sans-serif;
+    margin-left: 141px;
+}
+
+.katalog_li1 a{
+    color: #9DFF90;
+    font-size: 24px;
+    font-family: 'Space Grotesk',sans-serif;
+}
+
+.katalog_li2 ul li a{
+    color: #E6F8EC;
+    font-size: 16px;
+    font-family: 'Space Grotesk',sans-serif;
+}
+
+.katalog_li2 ul li a:hover{
+    color: #9DFF90;
+    font-size: 16px;
+    font-family: 'Space Grotesk',sans-serif;
+    border-bottom: #9DFF90 solid 4px;
+}
+
+.Product{
+    width: 1280px;
+    height: 1763px;
+    margin: 0 auto;
+    background-color: #06160F;
+}
+
+.Products{
+    width: 1184px;
+    height: 783px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .Products div{
+    width: 568px;
+    height: 367px;
+    border-radius: 48px;
+    background-color: black
+} */
+
+.backpack{
+    background-image: url('./IMG/BackPack.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 48px;
+    width: 568px;
+    height: 367px;
+    padding: 281px 40px 40px 40px;
+    border-radius: 48px;
+    background-color: black
+}
+
+.wallet{
+    background-image: url('./IMG/Wallet.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 48px;
+    width: 568px;
+    height: 367px;
+    padding: 281px 40px 40px 40px;
+    border-radius: 48px;
+    background-color: black
+}
+
+.tshirts{
+    background-image: url('./IMG/Tshit=rts.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 48px;
+    width: 568px;
+    height: 367px;
+    padding: 281px 40px 40px 40px;
+    border-radius: 48px;
+    background-color: black
+}
+
+.hoodies{
+    background-image: url('./IMG/Hoodies.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 48px;
+    width: 568px;
+    height: 367px;
+    padding: 281px 40px 40px 40px;
+    border-radius: 48px;
+    background-color: black
+}
+/* 
+.Products div{
+    padding: 281px 40px 40px 40px;
+} */
+
+.tovar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tovar h3{
+    font-size: 30px;
+    color: #E6F8EC;
+    font-family: 'Space Grotesk',sans-serif;
+}
+
+.tovar button{
+    width: 129px;
+    height: 46px;
+    background-color: #142A20;
+    color: #9DFF90;
+    font-size: 14px;
+    font-family: 'Manrope',sans-serif;
+    border-radius: 99px;
+    border: none;
+    border: solid #bcfab4 1px;
+}
+
+.Products{
+    gap: 48px;
+}
+
+.text1{
+    font-size: 48px;
+    font-family: 'Space Grotesk',sans-serif;
+    color: #E6F8EC;
+    padding-left: 48px;
+    padding-top: 96px;
+}
+
+.text2{
+    font-size: 14px;
+    font-family: 'Manrope',sans-serif;
+    color: #9EAFA4;
+    padding-top: 8px;
+    padding-left: 48px;
+    padding-bottom: 64px;
+}
+
+.marketing{
+    background-image: url('./IMG/boss\ fon.png');
+}
